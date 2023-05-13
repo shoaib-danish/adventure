@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background: url(./IMAGE/pexels-markus-spiske-113338.jpg);
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.hero {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+p {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.btn {
+    /* transition-duration: 0.4s; */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.btn-1 {
+    font-weight: 800;
+    cursor: pointer;
+    color: black;
+    padding: 1rem;
+    border-radius: 15px;
+    border-style: none;
+    word-spacing: 3px;
+}
+
+.btn-1:hover {
+    transition: 0.4s;
+    background-color: darkcyan;
+    color: white;
+}
+
+/* NAVBAR */
+
+.navbar {
+    padding: 0.5rem;
+    background-color: #3EB489;
+}
+
+.logo{
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    color: whitesmoke;
+}
+.nav-items {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: 530;
+    display: flex;
+    justify-content: right;
+    letter-spacing: 2px;
+    margin-bottom: 0.8rem;
+    margin-right: 2rem;
+}
+.nav:hover{
+    border-bottom: 2px solid white;
+    margin-bottom: 0px;
+}
+
+/* CARD STYLING */
+
+.card{
+    /* display: flex;
+    flex-direction: row; */
+    border: 4px solid r;
+    margin: 100px;
+    width: 270px;
+    height: 400px;
+
+}
+
+
+.showcase, .card{
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row; */
+    /* margin-left: 150px; */
+}
+
+.card2{
+    width: 250px;
+}
+/* FOOTER STYLING */
+
+.foot{
+    margin-top: 2rem;
+    background-color: #374051;
+    color: whitesmoke;
+    padding: 0.9rem;
+    text-align: center;
+}
+.smd-links, i{
+    letter-spacing: 18px;
+}
+.footp{
+    letter-spacing: 3px;
+    word-spacing: 3px;  
+    color: #3EB489;  
+}
+
+/* EXPLORE PAGE */
+
+.showcase{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+.box{
+    /* border: 2px solid purple; */
+    width: 400px;
+    height: 500px;
+    
+}
+.box:hover{
+    transition: .3s;
+    box-shadow: 5px 5px 20px 0px #374051; 
+}
+.box1{
+    background-image: url(./IMAGE/Diving.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+/* .box1:hover{
+    transition: .3s;
+    box-shadow: 5px 5px 20px0px #3EB489; 
+
+} */
+.box2{
+    background-image: url(./IMAGE/Ice\ Skating.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.box3{
+    background-image: url(./IMAGE/river\ rafting.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
