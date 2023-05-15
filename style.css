@@ -5,6 +5,7 @@
 
 .hero {
     background: url(./IMAGE/pexels-markus-spiske-113338.jpg);
+
     height: 95vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,7 +30,7 @@ h1 {
 p {
     font-size: 2rem;
     text-transform: capitalize;
-    color: beige;
+    color: #374051;
     display: flex;
     justify-content: center;
     letter-spacing: 2px;
@@ -129,47 +130,7 @@ p {
     color: #3EB489;  
 }
 
-/* EXPLORE PAGE */
-
-.showcase{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 4rem;
-}
-.box{
-    /* border: 2px solid purple; */
-    width: 400px;
-    height: 500px;
-    
-}
-.box:hover{
-    transition: .3s;
-    box-shadow: 5px 5px 20px 0px #374051; 
-}
-.box1{
-    background-image: url(./IMAGE/Diving.jpg); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-}
-/* .box1:hover{
-    transition: .3s;
-    box-shadow: 5px 5px 20px0px #3EB489; 
-
-} */
-.box2{
-    background-image: url(./IMAGE/Ice\ Skating.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-}
-.box3{
-    background-image: url(./IMAGE/river\ rafting.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
+img:hover{
+    transition: 0.3s;
+    box-shadow: 2px 3px 2px 2px #374051;
 }
